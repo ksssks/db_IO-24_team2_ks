@@ -1,8 +1,8 @@
 // .vuepress/config.js
 module.exports = {
   plugins: [
-    '@vuepress/back-to-top', 
-    '@vuepress/pwa', 
+    '@vuepress/back-to-top',
+    '@vuepress/pwa',
     {
       serviceWorker: true,
       updatePopup: true
@@ -15,19 +15,19 @@ module.exports = {
     }]
   ],
   port: 3030,
-  base: '/db_IO-24_team2/',
+  base: '/db_IO-24_team2_ks/',
   theme: 'cool',
   // dest: 'dist',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.5.1/katex.min.css' }],
     ['link', {href: 'https://fonts.googleapis.com/icon?family=Material+Icons', rel :'stylesheet'}],
-    
+
   ],
   themeConfig: {
     // logo: './myAvatar.png',
     sidebar: [
-    
+
     {
       title: 'Вступ',
       path:"/intro/"
@@ -52,12 +52,12 @@ module.exports = {
       title: 'Тестування працездатності системи',
       path:"/test/"
     },
-    
+
     {
       title: 'Висновки',
       path:"/conclusion/"
     },
-    
+
     {
       title: 'API',
       path:"/api/"
@@ -74,7 +74,7 @@ module.exports = {
 
     lastUpdated: 'Останнє оновлення', // string | boolean
       // Assumes GitHub. Can also be a full GitLab url.
-    repo: 'https://github.com/lesflq/db_IO-24_team2',
+    repo: 'https://github.com/ksssks/db_IO-24_team2_ks',
     // Customising the header label
     // Defaults to "GitHub"/"GitLab"/"Bitbucket" depending on `themeConfig.repo`
     repoLabel: 'Github',
